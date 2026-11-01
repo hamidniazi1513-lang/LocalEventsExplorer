@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "name": "Astana Tech Conference",
+      "category": "Technology",
+      "city": "Astana",
+      "latitude": 51.1694,
+      "longitude": 71.4491,
+      "venue_name": "EXPO Center",
+      "event_date": "2026-12-15",
+      "price_min": 5000,
+      "price_max": 15000
+    },
+    {
+      "id": "2",
+      "name": "Music Festival",
+      "category": "Music",
+      "city": "Astana",
+      "latitude": 51.1282,
+      "longitude": 71.4304,
+      "venue_name": "Astana Arena",
+      "event_date": "2026-12-20",
+      "price_min": 3000,
+      "price_max": 10000
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+// !$*UTF8*$!
+{
+ archiveVersion = 1;
+ classes = {};
+ objectVersion = 56;
+ objects = {
+		000000000000000000000065 /* LocalEventsExplorerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000001; };
+		000000000000000000000066 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000002; };
+		000000000000000000000067 /* EventTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000003; };
+		000000000000000000000068 /* EventsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000004; };
+		000000000000000000000069 /* SavedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000005; };
+		00000000000000000000006A /* EventsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000006; };
+		00000000000000000000006B /* EventsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000007; };
+		00000000000000000000006C /* CategoryFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000008; };
+		00000000000000000000006D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000009; };
+		00000000000000000000006E /* EventCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000A; };
+		00000000000000000000006F /* EventCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000B; };
+		000000000000000000000070 /* EventsMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000C; };
+		000000000000000000000071 /* SavedEventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000D; };
+		000000000000000000000072 /* SavedEventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000000E; };
+		0000000000000000000003DF /* events.json in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000C9; };
+		000000000000000000000001 /* LocalEventsExplorerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocalEventsExplorerApp.swift"; sourceTree = "<group>"; };
+		000000000000000000000002 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models/Event.swift"; sourceTree = "<group>"; };
+		000000000000000000000003 /* EventTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models/EventTip.swift"; sourceTree = "<group>"; };
+		000000000000000000000004 /* EventsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models/EventsResponse.swift"; sourceTree = "<group>"; };
+		000000000000000000000005 /* SavedEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models/SavedEvent.swift"; sourceTree = "<group>"; };
+		000000000000000000000006 /* EventsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/EventsService.swift"; sourceTree = "<group>"; };
+		000000000000000000000007 /* EventsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewModels/EventsViewModel.swift"; sourceTree = "<group>"; };
+		000000000000000000000008 /* CategoryFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/CategoryFilterView.swift"; sourceTree = "<group>"; };
+		000000000000000000000009 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/ContentView.swift"; sourceTree = "<group>"; };
+		00000000000000000000000A /* EventCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/EventCard.swift"; sourceTree = "<group>"; };
+		00000000000000000000000B /* EventCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/EventCardView.swift"; sourceTree = "<group>"; };
+		00000000000000000000000C /* EventsMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/EventsMapView.swift"; sourceTree = "<group>"; };
+		00000000000000000000000D /* SavedEventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/SavedEventDetailView.swift"; sourceTree = "<group>"; };
+		00000000000000000000000E /* SavedEventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/SavedEventsView.swift"; sourceTree = "<group>"; };
+		0000000000000000000000C9 /* events.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Resources/events.json"; sourceTree = "<group>"; };
+  0000000000000000000003DE /* LocalEventsExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalEventsExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+  0000000000000000000003DF = {isa = PBXGroup; children = (
+				000000000000000000000001 /* LocalEventsExplorerApp.swift */,
+				000000000000000000000002 /* Event.swift */,
+				000000000000000000000003 /* EventTip.swift */,
+				000000000000000000000004 /* EventsResponse.swift */,
+				000000000000000000000005 /* SavedEvent.swift */,
+				000000000000000000000006 /* EventsService.swift */,
+				000000000000000000000007 /* EventsViewModel.swift */,
+				000000000000000000000008 /* CategoryFilterView.swift */,
+				000000000000000000000009 /* ContentView.swift */,
+				00000000000000000000000A /* EventCard.swift */,
+				00000000000000000000000B /* EventCardView.swift */,
+				00000000000000000000000C /* EventsMapView.swift */,
+				00000000000000000000000D /* SavedEventDetailView.swift */,
+				00000000000000000000000E /* SavedEventsView.swift */,
+				0000000000000000000000C9 /* events.json */,
+   0000000000000000000003DE /* LocalEventsExplorer.app */,
+  ); sourceTree = "<group>"; };
+  0000000000000000000003E0 = {isa = PBXGroup; children = (0000000000000000000003DF,); sourceTree = "<group>"; };
+  0000000000000000000003E1 = {isa = PBXNativeTarget; buildConfigurationList = 0000000000000000000003E3; buildPhases = (0000000000000000000003E5, 0000000000000000000003E6, 0000000000000000000003E7,); buildRules = (); dependencies = (); name = LocalEventsExplorer; productName = LocalEventsExplorer; productReference = 0000000000000000000003DE; productType = "com.apple.product-type.application"; };
+  0000000000000000000003E2 = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = YES; LastUpgradeCheck = 1600;}; buildConfigurationList = 0000000000000000000003E4; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; mainGroup = 0000000000000000000003E0; productRefGroup = 0000000000000000000003DF; projectDirPath = ""; projectRoot = ""; targets = (0000000000000000000003E1,); };
+  0000000000000000000003E5 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (000000000000000000000065, 000000000000000000000066, 000000000000000000000067, 000000000000000000000068, 000000000000000000000069, 00000000000000000000006A, 00000000000000000000006B, 00000000000000000000006C, 00000000000000000000006D, 00000000000000000000006E, 00000000000000000000006F, 000000000000000000000070, 000000000000000000000071, 000000000000000000000072,); runOnlyForDeploymentPostprocessing = 0;};
+  0000000000000000000003E6 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (0000000000000000000003DF,); runOnlyForDeploymentPostprocessing = 0;};
+  0000000000000000000003E7 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0;};
+  0000000000000000000003E8 = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; IPHONEOS_DEPLOYMENT_TARGET = 26.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.LocalEventsExplorer; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Debug;};
+  0000000000000000000003E9 = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 26.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.LocalEventsExplorer; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Release;};
+  0000000000000000000003EA = {isa = XCBuildConfiguration; buildSettings = {}; name = Debug;};
+  0000000000000000000003EB = {isa = XCBuildConfiguration; buildSettings = {}; name = Release;};
+  0000000000000000000003E3 = {isa = XCConfigurationList; buildConfigurations = (0000000000000000000003E8, 0000000000000000000003E9,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+  0000000000000000000003E4 = {isa = XCConfigurationList; buildConfigurations = (0000000000000000000003EA, 0000000000000000000003EB,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+ };
+ rootObject = 0000000000000000000003E2;
+}
